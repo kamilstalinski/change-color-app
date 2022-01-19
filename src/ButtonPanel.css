@@ -1,0 +1,37 @@
+button {
+    padding: 15px; 
+    border: none;
+    margin: 0 5px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+button:nth-child(1) {
+    background: rgb(255, 45, 73);
+    box-shadow: 0 2px 5px rgb(148, 29, 35);
+}
+
+button:nth-child(2) {
+    background: rgb(45, 255, 132);
+    box-shadow: 0 2px 5px rgb(29, 148, 65);
+}
+
+button:nth-child(3) {
+    background: rgb(45, 178, 255);
+    box-shadow: 0 2px 5px rgb(29, 104, 148);
+}
+
+button:nth-child(1):hover {
+    background-color: rgb(255, 82, 105);
+    transform: translateY(-5px);
+}
+
+button:nth-child(2):hover {
+    background-color: rgb(97, 255, 163);
+    transform: translateY(-5px);
+}
+
+button:nth-child(3):hover {
+    background-color: rgb(49, 197, 255);
+    transform: translateY(-5px);
+}
